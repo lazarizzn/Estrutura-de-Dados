@@ -44,9 +44,6 @@ const alunos = [
     { nome: "Patrícia", idade: 19, notas: [5, 6, 7] }
   ];
 
-  exports.alunos = alunos;
-  exports.alunoNotas = alunoNotas;
-
 const pesquisarAlunoNotas = (nome) => {
   for (const aluno of alunoNotas){
     if(aluno.nome == nome){
@@ -55,3 +52,8 @@ const pesquisarAlunoNotas = (nome) => {
   }
   return null;
 }
+
+exports.alunos = alunos;
+exports.alunoNotas = alunoNotas;
+exports.pesquisarAlunoNotas = pesquisarAlunoNotas;
+
