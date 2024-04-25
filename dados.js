@@ -46,3 +46,12 @@ const alunos = [
 
   exports.alunos = alunos;
   exports.alunoNotas = alunoNotas;
+
+const pesquisarAlunoNotas = (nome) => {
+  for (const aluno of alunoNotas){
+    if(aluno.nome == nome){
+      return aluno
+    }
+  }
+  return null;
+}
