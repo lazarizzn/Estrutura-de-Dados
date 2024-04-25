@@ -5,15 +5,16 @@ console.log("------------------------");
 console.log("Lista de todos os alunos");
 console.log("------------------------");
 
-const nota = [7, 9 ,6];
 
-let medianotas = 0
+for(const aluno of dados.alunoNotas){
+    console.log(aluno.nome+" - "+aluno.notas);
 
 
-for(let i = 0; i < 3; i++){
-    console.log(nota[i])
+let Medianotas = 0;
 
-    medianotas = medianotas + nota[i]
-        
+for(let i = 0; i < aluno.notas.length; i++){
+    Medianotas = Medianotas + aluno.notas[i];
+} 
+console.log("Media: ", Medianotas / aluno.notas.length)
+
 }
-console.log("Media: ", medianotas / nota.length)
