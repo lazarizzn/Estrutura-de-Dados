@@ -1,6 +1,6 @@
 const dados = require('./dados');
 
-console.log("Exercicio 04");
+console.log("Exercicio 05");
 console.log("------------------------------");
 console.log("Lista de todos os alunos");
 console.log("------------------------------");
