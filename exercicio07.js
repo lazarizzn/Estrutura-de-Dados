@@ -1,8 +1,8 @@
 const dados = require('./dados');
 
-console.log("Exercicio 06");
+console.log("Exercicio 07");
 console.log("------------------------------");
-console.log("Lista de todos os alunos");
+console.log("Media de um aluno");
 console.log("------------------------------");
 
 const aluno =  dados.pesquisarAlunoNotas("Lucas")

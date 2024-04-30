@@ -15,6 +15,6 @@ let Medianotas = 0;
 for(let i = 0; i < aluno.notas.length; i++){
     Medianotas = Medianotas + aluno.notas[i];
 } 
-console.log("Media: ", Medianotas / aluno.notas.length)
+console.log("Media: ", Medianotas / dados.notas.length)
 
 }
